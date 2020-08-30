@@ -89,6 +89,7 @@
 
             <com.android.systemui.statusbar.phone.MultiUserSwitch
                  android:id="@+id/multi_user_switch"
+                 android:visibility="invisible"
                  android:layout_width="32dp"
                  android:layout_height="48dp"
                  android:background="@drawable/ripple_drawable"
