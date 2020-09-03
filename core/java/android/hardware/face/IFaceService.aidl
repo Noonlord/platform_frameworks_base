@@ -105,7 +105,4 @@ interface IFaceService {
     void getFeature(int userId, int feature, IFaceServiceReceiver receiver, String opPackageName);
 
     void userActivity();
-    
-    void enrollMoto(IBinder token, in byte [] cryptoToken, IFaceServiceReceiver receiver,
-            String opPackageName, in int [] disabledFeatures);
 }
